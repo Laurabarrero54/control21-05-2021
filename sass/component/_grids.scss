@@ -1,4 +1,13 @@
 /* **************************** */
 /* GRIDS */
 /* **************************** */
+/*  @BODY, grid para central la pagina*/
 
+
+
+/* @ HEADER, grid para distribuir logo y nav*/
+header{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

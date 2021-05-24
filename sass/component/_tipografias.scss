@@ -2,3 +2,45 @@
 /* TIPOGRAFIAS */
 /* **************************** */
 
+/* Tipografía general de la página*/ 
+
+@font-face{
+    font-family: "roboto", sans-serif;
+    scr: url(./assets/font/roboto-regular.woff2) format:("woff2");
+    scr: url(./assets/font/roboto-regular.woff) format:("woff");
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 1.125rem;
+}
+
+/*Tipografia del navegador*/ 
+.nav__inicio{
+    text-decoration: none;
+    color: $colorLetra;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+.nav__servicios{
+    text-decoration: none;
+    color: $colorLetra;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+
+.nav__proyectos{
+    text-decoration: none;
+    color: $colorLetra;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+
+.nav__contactar{
+    text-decoration: none;
+    color: $colorLetra;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+
+
