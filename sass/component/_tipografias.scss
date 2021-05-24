@@ -6,12 +6,12 @@
 
 @font-face{
     font-family: "roboto", sans-serif;
-    scr: url(./assets/font/roboto-regular.woff2) format:("woff2");
-    scr: url(./assets/font/roboto-regular.woff) format:("woff");
+    scr: url(./assets/font/roboto-regular.woff2); format:("woff2");
+    scr: url(./assets/font/roboto-regular.woff); format:("woff");
 }
 
 html{
-    font-family: sans-serif;
+    font-family: $font-family;
     font-size: 1.125rem;
 }
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <!-- SEO = Básico -->
-    <title>Control 21/05/2021</title>
+    <title>Banner Control</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -29,20 +29,21 @@
     <!-- *** ESTRUCTURA SEMÁNTICA *** -->
     <!-- Header (encabezado de la página, zona superior) -->
     <header>
-      <!--logo, superior izquierda-->
-      <img class="header__logo" src="./assets/svg/logo.svg" alt="logo">
-
-      <!-- nav (el navegador de toda la web, centro de página) -->
-      <nav>
-        <a class="nav__inicio menuActivo">inicio</a>
-        <a class="nav__servicios" href="#">servicios</a>
-        <a class="nav__proyectos" href="#">proyectos</a>
-        <a class="nav__contactar" href="#" >contactar</a>
-      </nav>
     </header>
     <!-- Main (centro de la página, zona central) -->
     <main>
       <!-- section y article (posibilidades dentro de main) -->
+      <picture>
+      <source
+        srcset="
+          ./assets/img/desktop/banner__moda__joven.jpg   1x,
+          ./assets/img/desktop/banner__moda__joven@2x.jpg 2x
+        "
+      />
+
+      <!-- Imagen de respaldo -->
+      <img src="" alt="banner__moda__joven" />
+  </picture>
     </main>
     <!-- Footer (final de la página, zona inferior) -->
     <footer>

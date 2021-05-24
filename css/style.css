@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* **************************** */
 /* IMPORTAR PARCIALES PARA COMPILAR */
 /* **************************** */
@@ -525,10 +526,25 @@ noscript {
 /* **************************** */
 /* VARIABLES */
 /* **************************** */
-/* @header*/
+/* Colores*/
+/*Tipografía*/
 /* **************************** */
 /* TIPOGRAFIAS */
 /* **************************** */
+/* Tipografía general de la página*/
+@font-face {
+  font-family: "roboto", sans-serif;
+  scr: url(./assets/font/roboto-regular.woff2);
+  format: "woff2";
+  scr: url(./assets/font/roboto-regular.woff);
+  format: "woff";
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+}
+
+/*Tipografia del navegador*/
 .nav__inicio {
   text-decoration: none;
   color: #000000;
@@ -586,6 +602,14 @@ nav {
 /* GRIDS */
 /* **************************** */
 /*  @BODY, grid para central la pagina*/
+main {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /* @ HEADER, grid para distribuir logo y nav*/
 header {
   display: -ms-grid;

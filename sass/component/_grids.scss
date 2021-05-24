@@ -3,7 +3,10 @@
 /* **************************** */
 /*  @BODY, grid para central la pagina*/
 
-
+main{
+    display: grid;
+    justify-content: center;
+}
 
 /* @ HEADER, grid para distribuir logo y nav*/
 header{
