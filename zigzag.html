@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <!-- SEO = Básico -->
+    <title>Zigzag Control</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO = Redes Sociales -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- icono de acceso para IOS -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+
+    <!-- links de estilos -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Se cambia el tema de algunos navegadores -->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
+      <!-- Header (encabezado de la página, zona superior) -->
+      <header></header>
+      <!-- Main (centro de la página, zona central) -->
+      <main>
+        <!-- section y article (posibilidades dentro de main) -->
+        <article class="main__galeria">
+          <picture>
+            <source
+              srcset="
+                ./assets/img/desktop/edificio__blanco.jpg        1x,
+                ./assets/img/desktop/edificio__blanco@2x.jpg 2x
+              "
+            />
+
+            <!-- Imagen de respaldo -->
+            <img src="" alt="edificio__blanco" />
+          </picture>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+            vulputate aenean mi amet eget ornare facilisi. Feugiat cursus
+            sapien, facilisis morbi tristique. Id pretium posuere praesent odio
+            massa justo. Ut nunc hendrerit tellus, venenatis massa interdum
+            elit, dictumst. Dignissim enim egestas lacus rutrum sagittis. Sed
+            sed pellentesque ut fermentum mauris. Nunc gravida risus eget ut
+            lectus. Tortor, mattis velit justo dui, accumsan est urna. Sed
+            malesuada feugiat enim, quam. Feugiat sit euismod eu leo volutpat
+            convallis amet. Facilisi mauris aliquam cursus a.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+            vulputate aenean mi amet eget ornare facilisi. Feugiat cursus
+            sapien, facilisis morbi tristique. Id pretium posuere praesent odio
+            massa justo. Ut nunc hendrerit tellus, venenatis massa interdum
+            elit, dictumst. Dignissim enim egestas lacus rutrum sagittis. Sed
+            sed pellentesque ut fermentum mauris. Nunc gravida risus eget ut
+            lectus. Tortor, mattis velit justo dui, accumsan est urna. Sed
+            malesuada feugiat enim, quam. Feugiat sit euismod eu leo volutpat
+            convallis amet. Facilisi mauris aliquam cursus a.
+          </p>
+          <picture>
+            <source
+              srcset="
+                ./assets/img/desktop/edificio__alto__ciudad.jpg        1x,
+                ./assets/img/desktop/edificio__alto__ciudad@2x.jpg 2x
+              "
+            />
+
+            <!-- Imagen de respaldo -->
+            <img src="" alt="edificio__alto__ciudad" />
+          </picture>
+        </article>
+      </main>
+      <!-- Footer (final de la página, zona inferior) -->
+      <footer></footer>
+    </div>
+    <!-- *** Google Analytics *** -->
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>

@@ -573,6 +573,7 @@ html {
   text-transform: capitalize;
 }
 
+/* Clases tipográficas*/
 /* **************************** */
 /* MIXINS */
 /* **************************** */
@@ -592,6 +593,18 @@ nav {
       align-self: center;
 }
 
+.main__galeria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* **************************** */
 /* BOTONES */
 /* **************************** */
@@ -602,20 +615,21 @@ nav {
 /* GRIDS */
 /* **************************** */
 /*  @BODY, grid para central la pagina*/
-main {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 /* @ HEADER, grid para distribuir logo y nav*/
 header {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* @MAIN, grid para centralizar banner*/
+main {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* **************************** */

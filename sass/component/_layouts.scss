@@ -11,3 +11,9 @@ nav{
     justify-self:center;
     align-self: center;
 }
+.main__galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    align-items: center;
+}

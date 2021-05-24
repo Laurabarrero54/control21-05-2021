@@ -3,14 +3,16 @@
 /* **************************** */
 /*  @BODY, grid para central la pagina*/
 
-main{
-    display: grid;
-    justify-content: center;
-}
+
 
 /* @ HEADER, grid para distribuir logo y nav*/
 header{
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+/* @MAIN, grid para centralizar banner*/
+main{
+    display: grid;
+    justify-content: center;
 }
