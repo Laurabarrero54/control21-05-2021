@@ -2,7 +2,11 @@
 /* GRIDS */
 /* **************************** */
 /*  @BODY, grid para central la pagina*/
-
+.gridCentral{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+}
 
 
 /* @ HEADER, grid para distribuir logo y nav*/

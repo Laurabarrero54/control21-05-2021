@@ -17,3 +17,14 @@ nav{
     justify-self: center;
     align-items: center;
 }
+
+footer{
+    background-color: $colorFooter;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) auto repeat(2, 1fr);
+    grid-row: 4/span-1;
+}
+
+.copy{
+    align-self: end;
+}
